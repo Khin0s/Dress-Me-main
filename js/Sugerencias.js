@@ -64,9 +64,7 @@ const SugerenciaDeOutfit = () => {
         <Text style={[styles.seleccioneSuCodigo, styles.seleccioneSuCodigoClr]}>SELECCIONE SU CODIGO DE VESTIMENTA PARA GENERAR  EL OUTFIT</Text>
         <Text style={[styles.sugerenciaDeOutfit1, styles.seleccioneSuCodigoClr]}>SUGERENCIA DE OUTFIT</Text>
       </View>
-      <View style={styles.cameraContainer}>
-        <CameraFotter styles={styles} />
-      </View>
+      <CameraFotter/>
     </View>
   );
 };

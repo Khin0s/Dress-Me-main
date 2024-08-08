@@ -50,9 +50,7 @@ const Closet = () => {
                     </Pressable>
                 </View>
             </View>
-            <View style={styles.cameraContainer}>
-                <CameraFotter styles={styles} />
-            </View>
+            <CameraFotter/>
         </View>
     );
 };

@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Image, StyleSheet, Pressable, View, Text, Dimensions } from "react-native";
+import { Image, Pressable, View, Text} from "react-native";
 import HeaderPrincipal from "../componentes/HeaderPrincipal";
 import CameraFotter from "../componentes/Camera";
 import { useNavigation } from "@react-navigation/native";
@@ -31,9 +31,7 @@ const VistaPrincipal = () => {
 					<Image style={styles.gancho1Icon} resizeMode="cover" source={require('../imagenes/gancho.png')} />
 				</Pressable>
 			</View>
-			<View style={styles.cameraContainer}>
-				<CameraFotter styles={styles} />
-			</View>
+			<CameraFotter/>
 		</Animatable.View>
 	);
 };

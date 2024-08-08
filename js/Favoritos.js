@@ -48,9 +48,7 @@ const Favoritos = () => {
         				</View>
       			</View>
       			
-				  <View style={styles}>
-				<CameraFotter styles={styles} />
-			</View>
+				  <CameraFotter/>
 				
 				
       			

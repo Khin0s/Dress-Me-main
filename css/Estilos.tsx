@@ -159,20 +159,6 @@
       fontWeight: "700",
       position: "absolute"
     },
-    // dressmetitulo2Icon: {
-    // 	top: 19,
-    // 	left: 126,
-    // 	width: 249,
-    // 	height: 80,
-    // 	position: "absolute"
-    // },
-    // customer: {
-    // 	left: 40,
-    // 	top: 34,
-    // 	width: 54,
-    // 	height: 51,
-    // 	position: "absolute"
-    // },
     header: {
       // top: 0,
       backgroundColor: "#000",
@@ -266,23 +252,7 @@
     // 	height: "100%",
     // 	width: "100%"
     // },
-    // camara1: {
-    // 	position: "absolute",
-    // 	left: Dimensions.get('screen').width * 0.42,
-    // 	top: Dimensions.get('screen').height * 0,
-    // 	width: 62,
-    // 	height: 60
-    // },
-    camera: {
-      top: Dimensions.get('screen').height * 0,
-      backgroundColor: "#e8e8e8",
-      height: Dimensions.get('screen').height * 0.09,
-      width: Dimensions.get('screen').width*1,
-      // left: 0,
-      // position: "absolute",
-      // overflow: "hidden"
-    },
-
+     
     //VISTA PROFILE ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     iconPosition: {//icono de dressme
       top: Dimensions.get('screen').height * 0.02,
@@ -573,11 +543,7 @@ overflow: "hidden"
 
 //VISTA CLOSET ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-cameraPosition: {
-  width: Dimensions.get('screen').width * 1,
-  left: 0,
-  position: "absolute"
-},
+
 camera1Position: {
   left: "0%",
   bottom: "0%",
@@ -609,11 +575,7 @@ labelTypo: {
   textAlign: "center",
   fontFamily: "Source Sans Pro"
 },
-camera: {
-  top: Dimensions.get('screen').height * 0.875,// div footer
-  backgroundColor: "#e8e8e8",
-  overflow: "hidden"
-},
+
 todo: {
   top: 237,
   left: Dimensions.get('screen').width * 0.3,
@@ -716,22 +678,6 @@ seleccioneSuCodigoClr: {
 icon: {
   height: "100%",
   width: "100%"
-},
-camara1: {
-  left: Dimensions.get('screen').width * 0.42,
-  top: Dimensions.get('screen').height * 0.01,
-  width: 62,
-  height: 60,
-  position: "absolute"
-},
-camera: {
-  top: Dimensions.get('screen').height * 0.875,
-  backgroundColor: "#e8e8e8",
-  height: 72,
-  width: Dimensions.get('screen').width,
-  left: 0,
-  position: "absolute",
-  overflow: "hidden"
 },
 text: {
   fontSize: 100,
@@ -1220,7 +1166,7 @@ cancel: {
   height: 75,
   marginTop: 20,
 },
-// VISTA EDEITAR PROFILE -=-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// VISTA EDITAR PROFILE -=-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 });

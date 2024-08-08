@@ -38,16 +38,16 @@ const styles = StyleSheet.create({
 	},
 	camara1: {
 		position: "absolute",
-		left: Dimensions.get('screen').width * 0.42,
+		left: Dimensions.get('screen').width * 0.43,
 		top: Dimensions.get('screen').height * 0.01,
 		width: 62,
 		height: 60
 	},
 	camera: {
-		top: Dimensions.get('screen').height * 0.1,
+		top: Dimensions.get('screen').height * 0.88,
 		backgroundColor: "#e8e8e8",
-		height: 72,
-		width: Dimensions.get('screen').width,
+		height: Dimensions.get('screen').height * 0.1,
+		width: Dimensions.get('screen').width * 1,
 		left: 0,
 		position: "absolute",
 		overflow: "hidden"

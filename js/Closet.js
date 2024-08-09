@@ -49,6 +49,9 @@ const Closet = () => {
                         <Text style={[styles.label2, styles.labelTypo]}>Falda</Text>
                     </Pressable>
                 </View>
+                <View>
+                    
+                </View>
             </View>
             <CameraFotter/>
         </View>
